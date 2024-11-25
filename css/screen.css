@@ -1,0 +1,184 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+}
+body {
+	font-family:"verdana";
+	font-size:17px;
+	color:#333366;
+	background:#dbedff;
+}
+h2{
+	font-size:19px;
+	font-weight: normal;
+	margin: 5px 0 0 25px;
+}
+h3{
+	font-size:18px;
+	font-weight: bold;
+}
+#geral{
+	width: 770px;
+	margin: 0 auto;
+}
+#borda_top{
+	background:#334f87;
+	height:3px;
+	width: 770px;
+}
+#banner{
+	height:155px;
+	background:url(../img/banner_bg.jpg) no-repeat;
+	border-bottom: 1px solid #e8f6fe;
+	border-top: 1px solid #e8f6fe;
+}
+#logo{
+	height:85px;
+	margin: 15px 0 0 15px;
+	overflow: hidden;
+}
+#logo h1{
+	text-indent:-9999px;
+}
+#menu{
+	margin: 5px 0 0 26px;
+}
+#menu li{
+	display:inline;
+	color:#fefefe;
+	margin-left: 57px;
+}
+#menu li a{
+	color:#fefefe;
+}
+#conteudo, #conteudo2{
+	padding: 10px 30px;
+	background:#e8f6fe;
+	border-bottom: 6px solid #334f87;
+	border-top: 6px solid #334f87;
+}
+#conteudo2{
+	padding:3px 30px; 
+}
+#conteudo p, .framev p{
+	text-indent: 30px;
+	color:#293171;
+	font-size:13px;
+	line-height:18px;
+}
+#frames2 p{
+	color:#293171;
+	font-size:13px;
+	line-height:18px;
+}
+#frames, #frames2{
+	padding-bottom:5px;
+	background:#b4d5f3 url(../img/frame.jpg) repeat-x;
+	border-bottom: 1px solid #e8f6fe;
+	border-top: 1px solid #e8f6fe;
+}
+#frames{
+	height:325px;
+}
+#frames2{
+	padding:30px 10px 0 30px;
+	text-indent:30px;
+}
+.framev, #framev2{
+	float:left;
+	display:inline;
+	height:296px;
+	width:50px;
+	margin:15px 0 0 20px;
+}
+.framev{
+	width: 730px;
+}
+.frameh{
+	position:relative;
+	height:136px;
+	margin-bottom:18px;
+	border: 3px solid #d7f1ff;
+	background:#7490c1 url(../img/brilho.jpg) top right no-repeat;
+}
+.frameh p{
+	margin: 5px 15px 15px 15px;
+}
+#frames p{
+	color:#FFF;
+}
+#framev2{
+	position:relative;
+	width: 254px;
+	border: 3px solid #d7f1ff;
+	background:#7490c1 url(../img/brilho.jpg) top right no-repeat;
+}
+#framev2 p, #frames2 ul{
+	font-size:13px;
+	line-height:22px;
+	margin:2px 2px 0 17px;
+}
+.mensagem{
+	text-indent:0px;
+	padding-bottom:5px;
+}
+#framev2 label input{
+	width:150px;
+	position:absolute;
+	right:10px;
+}
+#framev2 textarea{
+	width:225px;
+	height:75px;
+	position:absolute;
+	right:10px;	
+}
+.leia{
+	position:absolute;
+	bottom:-8px;
+	right:-2px;
+}
+#botoes{
+	position:absolute;
+	width:252px;
+	bottom:15px;
+	right:30px;
+}
+.leia a{
+	color:#334F87;
+	font-weight:bold;
+	line-height:normal;
+	text-indent:0px;
+}
+#contato{
+	width:300px;
+	margin:0 auto;
+}
+#contato input, #contato textarea{
+	margin-left:50px;
+	width:200px;
+}
+#bottom{
+	padding: 5px;
+	background:#334f87;
+}
+#bottom address{
+	color:#e8f6fe;
+	font-size:11px;
+	font-style:normal;
+}
+#bottom p{
+	color:#e8f6fe;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:2px;	
+}
+#creditos p, #creditos a{
+	margin: 3px 0;
+	font-size:10px;
+	color:#333366;
+}
